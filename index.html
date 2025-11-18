@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--&      Google Font       -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--^     Font Awesome StyleSheet  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!--*     Bootstrap StyleSheet     -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!--!       Main StyleSheet        -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="images/DiaaEldeen.ico"
+      type="image/x-icon"
+    />
+    <title>NEXUS HUB</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/wraper.png" alt="Game Cover" class="w-100" />
+    </header>
+
+    <nav class="navbar navbar-expand-lg position-sticky top-0 z-3">
+      <div class="container">
+        <div class="nav-logo">
+          <img src="images/logo-sm.png" alt="Game Logo" />
+          <a class="navbar-brand" href="#">NEXUS HUB</a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">MMORPG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SHOOTER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SAILING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PERMADEATH</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SUPERHERO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PIXEL</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="games">
+      <div
+        class="loading z-3 d-flex justify-content-center align-items-center vh-100 position-fixed bottom-0 start-0 end-0 top-0 bg-dark bg-opacity-25 d-none"
+      >
+        <div class="loader"></div>
+      </div>
+      <div class="container">
+        <div class="row innerGames gy-5"></div>
+      </div>
+    </section>
+
+    <section class="games-descripe vh-100 d-none">
+      <div class="container my-desc"></div>
+    </section>
+    <!--* Bootstrap Js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--! Main Js -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
